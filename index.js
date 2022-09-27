@@ -1,7 +1,7 @@
 let fs = require("fs");
 
 let a = fs.readFileSync('./movies.json', 'utf-8');
-
+console.log('test');
 let rawdata = fs.readFileSync('movies.json');
 let std = JSON.parse(rawdata); 
 //console.log(std);
